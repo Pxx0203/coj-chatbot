@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>COJ Chatbot</title>
   <style>
-    body {
+    /* ตั้งให้ body เต็มหน้าจอและไม่มี margin */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
       font-family: sans-serif;
-      padding: 100px;
     }
   </style>
 </head>
 <body>
-  <h1>แชทกับบอทศาลยุติธรรม</h1>
-  <p>ระบบกำลังโหลดบอท โปรดรอสักครู่...</p>
-
-  <!-- สคริปต์บอท -->
+  <!-- สคริปต์บอทโหลดขึ้นทันที -->
   <script src="https://phonebook.coj.go.th/theme/assets/js/chatbot.js"></script>
 </body>
 </html>
